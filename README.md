@@ -1,5 +1,5 @@
-# anubhavgupta.github.io
-Portfolio for Anubhav Gupta
+# moretolife.github.io
+Portfolio for Neha More
 
 Based on the template from start bootstrap
 http://startbootstrap.com/template-overviews/creative/
