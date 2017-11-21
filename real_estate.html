@@ -68,18 +68,20 @@
             <div class="row">
                 <div class="col-lg-8 text-center" style="text-align: left">
                     <!-- <hr class="light"> -->
-                    <h2 style="font-style: italic">Data Preparation in R<h2>
+                    <h2 style="font-style: italic">Real Estate Price Prediction using Linear Regression<h2>
                     <h4>OBJECTIVE</h4>
                     <p class="text-faded" style="font-size: small">
-                    This Mini Project involves data preparation of a dataset
-                    which includes income ranges and various attributes of people belonging to a region
-                     in order to make it fit for futher analysis and model building.</p>
+                    This Machine Learing Project involves Building a Predictive model using Linear Regression and predicting the accurate prices of the Real Estate proterties.
+                      </p>
                     <p class="text-faded" style="font-size: small">
-                    Data preparation is the vital and most time consuming activity which
-                    takes care of making the data fit for model building and analysis according to the business requirements.</p>
+                    Price of a property is one of the most important decision criterion when people buy homes.
+                    Real state firms need to be consistent in their pricing in order to attract buyers .
+                    Having a predictive model for the same will be great tool to have ,
+                     which in turn can also be used to tweak development of properties ,
+                     putting more emphasis on qualities which increase the value of the property.</p>
                     <h4>TAGS</h4>
                     <p class="text-faded" style="font-size: small">
-                    Dummy variables, flag variables , library dplyr  </p>
+                    Linear Regression, RMSE.  </p>
 
                     <h4>PROJECT METHODOLOGY</h4>
                     <p class="text-faded" style="font-size: small">
@@ -89,24 +91,25 @@
 
 
 
-                        <li>1.Creating dummy variable for character variables.</li>
-                        <li>2.Grouping similar category variables and making dummies.</li>
-                        <li>3.Dealing with flag variables.(for numeric variables)</li>
-                        <li>4.Converting the target Variable.(Y)</li>
+                        <li>1. Imputing NA values in the datasets.</li>
+                        <li>2. Data Preparation:Grouping similar category variables and making dummies.</li>
+                        <li>3. Model Building. ( LINEAR REGRESSION )</li>
+                        <li>4 .Perfomance measurement of the model. (Calculating RMSE)</li>
+                        <li>5. Predicting Real Estate Prices for the final Test Dataset.</li>
 
                     </ul>
                     <h4>DATA DICTIONARY </h4>
                     <p class="text-faded" style="font-size: small">
 
                     <ul class="text-faded" style="font-size: small">
-                        <li>census_income.csv is a csv file containing 32561 obs and 15 variables.</li>
-                        <li>It describes the income ranges of a population with their characteristic attributes.</li>
-                        <li>The income ranges of people is >50k and <=50k which is stored in target variable Y. </li>
-                        <li>We need to prepare data for the remaining (14) variables which can be further usefull in building models and analysis.</li>
+                        <li>There exist two datasets, housing_train.csv and housing_test.csv .</li>
+                        <li> We will use data housing_train to build predictive model for response variable “Price”.</li>
+                        <li> Housing_test data contains all other factors except “Price” which we can use for testing purpose. </li>
+                        <li>The evalution metric will be RMSE.</li>
                     </ul>
                     </p>
-                   <a href="http://rpubs.com/more11neha/Data_Prep" class="btn btn-primary btn-xl page-scroll" target="_blank">View Rpubs Report</a><br>
-                   <a href="https://github.com/moretolife/Data-Preparation-in-R" class="btn btn-primary btn-xl page-scroll" target="_blank">View Github Code and Dataset</a>
+                   <a href="http://rpubs.com/more11neha/RealEstateProject" class="btn btn-primary btn-xl page-scroll" target="_blank">View Rpubs Report</a><br>
+                   <a href="https://github.com/moretolife/Industry-Based-Projects-Edvancer-Eduventures.git" class="btn btn-primary btn-xl page-scroll" target="_blank">View Github Code and Dataset</a>
                 </div>
 
             </div>
