@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Neha More</title>
-    <link rel="shortcut icon" href="img/a-icon.ico" />
+    <link rel="shortcut icon" href="img/icon1.png" />
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -63,6 +63,9 @@
                         <a class="page-scroll" href="resume/Neha_More_Resume.pdf" target="_blank">Resume</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="certi.html" target="_blank">Certifications</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -75,23 +78,27 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Hello there!       I'm NeMo</h1>
+                <h1>Hello!  I'm Neha More</h1>
                 <hr>
-                <p><i><h2>When Life Gets You Down..Just Keep Swimming</i></h2></p>
-              <br></br><br></br><br></br>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Know More</a>
+                <p><i><h2>Every Master Was Once A Beginner.</i></h2></p>
+
+                <p><i><h2>If It Is To Be, It Is Upto Me.</i></h2></p>
+              <br></br>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
             </div>
         </div>
     </header>
 
     <section class="bg-primary" id="about" style="height: 100%">
         <div class="container">
-            <img src="img/" class="img-responsive" alt="" style="margin :auto">
+            <img src="img/mypic2.png" class="img-responsive" alt="" style="margin :auto">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <hr class="light">
-                    <p class="text-faded">Neha is motivated by the belief that data can be used to make better decisions. He wants to be able to make it easier for people to understand code and use data efficiently. Neha believes in open data and open source software. Neha primarily uses Python, but also has experience with R and Scala.</p>
-                    <p class="text-faded">Working as a Technical Product Manager at Cloud Raxak, Neha is currently helping organizations understand the importance of automated and proactive cloud security and compliance. Recently, Neha graduated from the School of Information at UC Berkeley where he explored various facets of data science and user research.</p>
+                    <p class="text-faded"><h4>Welcome to my Internet Home. I hail from Mumbai, India. I am a Software Engineer with Masters in Business Administration, a Data Enthusiast,an amateur Teacher and a Self-Learner. I believe in doing Good Work and always chase Perfection and Satisfaction. My motto is "Keep Learning, Keep Growing."</h4></p>
+                    <p class="text-faded"><h4>My passion for playing around with data, discovering insights thereby leading to ease in human efforts and effective decision making was realised during my post graduation. Since then my relation has only grown stronger with analytics, machine learning and data visualisation. SAS,R programming and Tableau are few of the tools I have taught myself which helped me deep dive into Analytics.
+                      I take deep interests in ways how Data Science can enhance human lives to solve complex issues in Health,Travel and Service industry.</h4></p>
+                    <p class="text-faded"><h4>I'm also into Yoga, Creative artworks, Journaling, Trekking and Cooking in my leisure time. Check out my Portfolio for some of the projects I’ve worked on. Feel free to Contact me for any opportunities or feedback. Thanks for reading!</h4></p>
                 </div>
             </div>
         </div>
@@ -101,7 +108,8 @@
       <div class="container" style="padding-top: 20px">
           <div class="row">
               <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Projects</h2>
+                  <h2 class="section-heading">My Projects: Few cool stuffs done by me! Take a Look.
+                  </h2>
                   <hr class="primary">
               </div>
           </div>
@@ -111,126 +119,28 @@
 
                 <div class="col-lg-3 col-lg-offset-1 coldcol-sm-4">
                     <div style="width :95%">
-                        <a href="hydrobase.html" class="portfolio-box" >
-                            <img src="img/hydrobase.png" class="img-responsive" alt="">
+                        <a href="real_estate.html" class="portfolio-box" >
+                            <img src="img/realestate.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                   <div class="project-category text-faded">
-                                      Internet of things
+                                      Machine Learning Analytics
                                   </div>
                                     <div class="project-name">
-                                        Hydrobase
+                                        Linear Regression Predictive Modeling in R
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">Product Manager</h3></br>
-                        <p class="text-muted" style="font-size: small"> A control system and an analytics engine to help plants grow</p>
+                        <h3 style="text-align: center">Real Estate Price Prediction</h3></br>
+                        <p class="text-muted" style="font-size: small"> A Regression Model which Predicts the Property Prices based on distinguised parameters.</p>
                         <!--b class="text-muted">Accepted Poster at IEEE Viz Conference 2015!</b-->
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="jeopardy.html" class="portfolio-box">
-                            <img src="img/jeopardy.png" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                  <div class="project-category text-faded">
-                                      Information Visualization
-                                  </div>
-                                    <div class="project-name">
-                                        This is Jeopardy!
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">Info-Viz Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small"> Get to know more about your favourite game show in a more visually appealing way.</p>
-                        <!--b class="text-muted">Accepted Poster at IEEE Viz Conference 2015!</b-->
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="nyce.html" class="portfolio-box">
-                            <img src="img/NYCe.png" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Data Mining and Analytcis
-                                    </div>
-                                    <div class="project-name">
-                                        NYCe Taxi
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">Machine Learning Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small">The best tool to predict the Tip of a New York Taxi cab driver.</p>
-                        <!--b class="text-muted">Pay Smart!</b-->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="memeoke.html" class="portfolio-box">
-                            <img src="img/memeoke.png"  class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Web Architechture
-                                    </div>
-                                    <div class="project-name">
-                                        Memeoke
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">Backend Developer</h3></br>
-                        <p class="text-muted" style="font-size: small">The place to be if you want to sing your heart out to amazing lyrics and funny GIFs.</p>
-                        <!--b class="text-muted">Share your happiness!</b-->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="travelbites.html" class="portfolio-box">
-                            <img src="img/travelbites.png"  class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        User Interface Design and Development
-                                    </div>
-                                    <div class="project-name">
-                                        Travel Bites
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">UX Reseacher</h3></br>
-                        <p class="text-muted" style="font-size: small">The app that allows you to plan your travel iternary around food.</p>
-                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="anlp.html" class="portfolio-box">
-                            <img src="img/anlp.png"  class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Natural Language Processing
-                                    </div>
-                                    <div class="project-name">
-                                        Restaurant Ambience Tagger
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">NLP Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small">Classification model to assign these tags to restaurants based on non-linguistic as well as linguistic features.</p>
-                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
-                    </div>
-                </div>
+
+
                 <div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
                         <a href="univariatestatistics.html" class="portfolio-box">
@@ -272,7 +182,6 @@
                         <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -281,7 +190,7 @@
         <div class="container">
             <div class="row" class="call-to-action">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Get In Touch With Me!</h2>
+                    <h2 class="section-heading">Feel Free To Get In Touch With Me!</h2>
                     <hr class="primary">
                 </div>
                 <div class="col-lg-2 col-lg-offset-3 text-center">
