@@ -16,16 +16,16 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
-    border-width: 3px;
+    border-color: #f05f40; /*for the dash*/
+    border-width: 3px;/*dash width*/
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #fff;/*color of dash below my pic in about me*/
 }
 
 a {
-    color: #f05f40;
+    color: #f05f40; /*color of links get in touch */
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #eb3812;/*color when u click get in touch*/
 }
 
 h1,
@@ -45,38 +45,39 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-p {
-    margin-bottom: 20px;
-    font-size: 16px;
+/*for paragrahs in all pages*/
+p { text-align:justify;
+    margin-bottom: 2%;
+    font-size: 20px;
     line-height: 1.5;
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #f05f40;/*bg color for abt me page n each project pg bg*/
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #222; /*dont know*/
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7); /*color of text in project page and project heading*/
 }
 
 section {
-    padding: 100px 0;
+    padding: 6% 1%; /*margin on about me page,project pages*/
 }
 
 aside {
-    padding: 50px 0;
+    padding: 50% 0; /*for project boxes i guess*/
 }
 
 .no-padding {
     padding: 0;
 }
 
-.navbar-default {
+.navbar-default { /**dont know*/
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
@@ -100,20 +101,20 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px; /*size and weight of about portfolio certification tab in homepage*/
     font-weight: 700;
     color: #222;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #f05f40; /*color change when mouse clicked on home page nav bars*/
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #f05f40!important;
-    background-color: transparent;
+    background-color:rgba(#ebb37a, 0.84) ;
 }
 
 .navbar-default .nav > li.active>a:hover,
@@ -171,13 +172,13 @@ aside {
         color: #f05f40;
     }
 }
-
-header {
+/*dint understnd anything related to nav bar*/
+header {/*the background wallpaer stuff*/
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #fff;/*color of text on homepage hello nemo*/
     background-image: url(../img/gif3.gif);
     background-position: center;
     -webkit-background-size: cover;
@@ -186,10 +187,10 @@ header {
     -o-background-size: cover;
 }
 
-header .header-content {
+header .header-content { /*content on home*/
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 20% 10%;
     text-align: center;
 }
 
