@@ -68,63 +68,75 @@
             <div class="row">
                 <div class="col-lg-8 text-center" style="text-align: left">
                     <!-- <hr class="light"> -->
-                    <h2 style="font-style: italic">Real Estate Price Prediction using Linear Regression<h2>
+                    <h2 style="font-style: italic">Marketing campaign to sell term deposits: Predicting Target Customers <h2>
                     <h4>OBJECTIVE</h4>
                     <p class="text-faded" style="font-size: small">
-                    This Machine Learing Project involves Building a Predictive model using Linear Regression and predicting the accurate prices of the Real Estate proterties.
+                    To Build a machine learning predictive model and predict which customers should be targeted for rolling out term deposits by bank.( We use LOGISTIC REGRESSION here. )
                       </p>
+                      <p class="text-faded" style="font-size: small">
+                    Evaluation Criterion :KS score on test data. larger KS, better Model
+                  </p>
                     <p class="text-faded" style="font-size: small">
-                    Price of a property is one of the most important decision criterion when people buy homes.
-                    Real state firms need to be consistent in their pricing in order to attract buyers .
-                    Having a predictive model for the same will be great tool to have ,
-                     which in turn can also be used to tweak development of properties ,
-                     putting more emphasis on qualities which increase the value of the property.</p>
+                      A Portugese bank is rolling out term deposit for its customers. They have in the past connected to their customer base through phone calls. Results for these previous campaigns were recorded and have been provided to the current campaign manager to use the same in making this campaign more effective.
+
+                      Challenges that the manager faces are following:
+
+                      •  Customers have recently started to complain that bank’s marketing staff bothers them with irrelevant product calls and this should        immediately stop
+
+                      •  There is no prior framework for her decide and choose which customer to call and which one to leave alone
+
+                      She has decided to use past data to automate this decision, instead of manually choosing through each and every customer. Previous campaign data which has been made available to her; contains customer characteristics , campaign characteristics, previous campaign information as well as whether customer ended up subscribing to the product as a result of that campaign or not. Using this she plans to develop a statistical model which given this information predicts whether customer in question will subscribe to the product or not. A successful model which is able to do this, will make her campaign efficiently targeted and less bothering to uninterested customers.
+                    </p>
                     <h4>TAGS</h4>
                     <p class="text-faded" style="font-size: small">
-                    Linear Regression, RMSE.  </p>
+                    Logistic Regression, KS Method, Cutoff, Confusion Matrix, Accuracy, Sensitivity, Specificity. </p>
 
                     <h4>PROJECT METHODOLOGY</h4>
                     <p class="text-faded" style="font-size: small">
-                    The project involves the following steps:
+                    We will build a Logistic regression model to predict the response variable "y" (whether the client subscribed to a term deposit or No.)
                     <ul class="text-faded" style="font-size: small">
 
 
 
 
-                        <li>1. Imputing NA values in the datasets.</li>
-                        <li>2. Data Preparation:Grouping similar category variables and making dummies.</li>
-                        <li>3. Model Building. ( LINEAR REGRESSION )</li>
-                        <li>4 .Perfomance measurement of the model. (Calculating RMSE)</li>
-                        <li>5. Predicting Real Estate Prices for the final Test Dataset.</li>
-
+                        <li>Step 1: Imputing NA values in the datasets.</li>
+                        <li>Step 2. Data Preparation:Grouping similar category variables and making dummies.</li>
+                        <li>Step 3. Model Building. ( LOGISTIC REGRESSION )</li>
+                        <li>Step 4. Finding Cutoff value and Perfomance measurements of the model.(Sensitivity, Specificity, Accuracy)</li>
+                        <li>Step 5.Predict the final output on test dataset.(whether the client subscribe or no to term deposit)</li>
+                        <li>Step 6:Creating confusion matrix and finding how good our model is. (by predicting on test_25 dataset)</li>
                     </ul>
                     <h4>DATA DICTIONARY </h4>
                     <p class="text-faded" style="font-size: small">
 
                     <ul class="text-faded" style="font-size: small">
-                        <li>There exist two datasets, housing_train.csv and housing_test.csv .</li>
-                        <li> We will use data housing_train to build predictive model for response variable “Price”.</li>
-                        <li> Housing_test data contains all other factors except “Price” which we can use for testing purpose. </li>
-                        <li>The evalution metric will be RMSE.</li>
+
+                        <li>We have given you two datasets , bank-full_train.csv and bank-full_test.csv .</li>
+                        <li> You need to use data bank-full_train to build predictive model for response variable “y”.</li>
+                        <li> bank-full_test data contains all other factors except “y”, you need to predict that using the model that you developed and submit your predicted values in a csv files. </li>
+                        <li>Evaluation Criterion :KS score on test data. larger KS, better Model</li>
                     </ul>
                     </p>
 
                     <h4>CONCLUSION</h4>
                     <p class="text-faded" style="font-size: small">
-                    Real estate price prediction was done successfully using linear regression model having Adjusted R-square: 0.6764.  </p>
-                   <a href="http://rpubs.com/more11neha/RealEstateProject" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
-                   <a href="https://github.com/moretolife/Industry-Based-Projects-Edvancer-Eduventures.git" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Github Code and Dataset</a>
+                    Thus the target no. of customers to be focused upon for term deposits by the bank are predicted successfully
+                    using logistic regression model with an accuracy of 84.15% using KS method.
+                  </p>
+                  <p class="text-faded" style="font-size: small">
+                   The KS score examined came out to be: 0.72/1.00[ i.e. Our Model and Predictions were VERY GOOD]
+                  </p>
+                   <a href="http://rpubs.com/more11neha/banking" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
+                   <a href="https://github.com/moretolife/Industry-Based-Projects-Edvancer-Eduventures.git" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Github Code and Datasets</a>
                 </div>
 
                 <div class="col-lg-4 text-center" style="padding-top: 100px">
-                <img src="img/real_estate/Rplot4.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Real (test_25$Price) vs Predicted (PP_test_25) Plot</p>
-                <img src="img/real_estate/Rplot.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Residual Vs Fitted Plot (A test for Linearity)</p>
-                <img src="img/real_estate/Rplot01.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Q-Q Plot (for Normality)</p>
-                <img src="img/real_estate/Rplot03.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Cooks Distance Plot( for knowing Outliers)</p>
+                <img src="img/bank/Rplot1.png" class="img-responsive" alt="" style="margin :auto">
+                <p>ggplot for behavior of Predicted Scores on train dataset.</p>
+                <img src="img/bank/Rplot.png" class="img-responsive" alt="" style="margin :auto">
+                <p>ROC CURVE for Real outcome (y) vs Predicted Score on test_25 datasets</p>
+
+
                 </div>
 
             </div>
