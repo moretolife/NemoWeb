@@ -68,17 +68,16 @@
             <div class="row">
                 <div class="col-lg-8 text-center" style="text-align: justify">
                     <!-- <hr class="light"> -->
-                    <h2 style="font-style: italic">Predicting Sales related to counterfeit Medicines: Using Decision Tree and Random Forest Model
+                    <h2 style="font-style: italic">Predicting whether Customers will succesfully Repay the Loans or No: Using Decision Tree and Random Forest Model
                       <h2>
                     <h4>OBJECTIVE</h4>
                     <p class="text-faded" style="font-size: medium">
-                      Use RandomForest and Decision Tress to build your model of predicitng sales on train data and compare their performance on test data. Also get the variable importance plot for the model.                      </p>
+                      Use RandomForest and DecisionTress to build your model on train data and compare their performance on test data. Also get the variable importance plot for the model.                      </p>
                       <p class="text-faded" style="font-size: medium">
-                      </p>
+                    Evaluation Criterion :Error
+                  </p>
                     <p class="text-faded" style="font-size: medium">
-                      Use dataset "base_data.csv" to build a model.Variable names are self explanatory. Aim here is to
-                      build predictive model for predicting sales figures given other information related to counterfeit medicine
-                      selling operations.
+                    Aim here is to build predictive model for predicting whether customers will succeed or fail to repay the loans.
                     </p>
                     <h4>TAGS</h4>
                     <p class="text-faded" style="font-size: medium">
@@ -90,37 +89,39 @@
 
                         <li>Step 1: Data preparation</li>
                         <li>Step 2. Building decision tree model on train data</li>
-                        <li>Step 3. Use the model to predict on test dataset and find error ( RMSE )</li>
+                        <li>Step 3. Use the model to predict on test dataset and find error </li>
                         <li>Step 4. Prune the tree and find optimised solution.</li>
                         <li>Step 5.Build the model using random forest method.</li>
-                        <li>Step 6.Compare and see which model performs better(i.e. gives less RMSE).</li>
+                        <li>Step 6.Compare and see which model performs better(i.e. gives less error).</li>
 
                     </ul>
                   </p>
                     <h4>DATA DICTIONARY </h4>
                     <ul class="text-faded" style="font-size: medium">
 
-                        <li>Dataset base_data.csv is given to build models.</li>
-                        <li>Evaluation Criterion :RMSE,lower RMSE better the model.</li>
+                        <li>Dataset paydayloan_collections.csv is given to build models.Use dataset "paydayloan_collections.csv" to build a model.</li>
+                        <li>It consists of 30,000 observations and 31 variables.</li>
+                        <li>Variable names are self explanatory along with the target variable "payment" having values success/denied</li>
+                        <li>Evaluation Criterion :Lower Error, better the model.</li>
                     </ul>
                     </p>
 
                     <h4>CONCLUSION</h4>
                     <p class="text-faded" style="font-size: medium">
-                    RMSE by decision tree is 49925 and that by random forest is 49057. Hence random forest is little better model.
+                      Error generated on by Random forest is 13.20% as against 17.5% by Decision tree model. Hence random forest is little better than decision tree model.
                   </p>
 
-                   <a href="http://rpubs.com/more11neha/decisionRF" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
+                   <a href="http://rpubs.com/more11neha/DTRF" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
                    <a href="https://github.com/moretolife/Industry-Based-Projects-Edvancer-Eduventures.git" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Github Code and Datasets</a>
                 </div>
 
                 <div class="col-lg-4 text-center" style="padding-top: 100px">
-                <img src="img/decisionRF/decision1.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Decision tree with 6 terminal nodes.</p>
-                <img src="img/decisionRF/decision2.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Pruned tree plot showing optimised number of nodes.</p>
-                <img src="img/decisionRF/variableImp.png" class="img-responsive" alt="" style="margin :auto">
-                <p>Variable Importance plot showing medicine_MRP and Availability Rating as most important variables contributing to the model.</p>
+                <img src="img/loanDTRF/loan1.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Decision tree with 7 terminal nodes.</p>
+                <img src="img/loanDTRF/loan2.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Pruned tree plot showing optimised number of nodes.(7 nodes)</p>
+                <img src="img/loanDTRF/loan3.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Variable Importance plot showing variables 25,17,16,23 as most important variables contributing to the model.</p>
 
 
                 </div>
