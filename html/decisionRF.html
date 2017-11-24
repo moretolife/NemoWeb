@@ -68,65 +68,50 @@
             <div class="row">
                 <div class="col-lg-8 text-center" style="text-align: left">
                     <!-- <hr class="light"> -->
-                    <h2 style="font-style: italic">Marketing campaign to roll out term deposits by a Bank: Predicting Target Customers <h2>
+                    <h2 style="font-style: italic">Predicting Sales related to counterfeit Medicines: Using Decision Tree and Random Forest Model
+                      <h2>
                     <h4>OBJECTIVE</h4>
                     <p class="text-faded" style="font-size: small">
-                    To Build a machine learning predictive model and predict which customers should be targeted for rolling out term deposits by bank.( We use LOGISTIC REGRESSION here. )
-                      </p>
+                      Use RandomForest and Decision Tress to build your model of predicitng sales on train data and compare their performance on test data. Also get the variable importance plot for the model.                      </p>
                       <p class="text-faded" style="font-size: small">
-                    Evaluation Criterion :KS score on test data. larger KS, better Model
+                    Evaluation Criterion :Error RMSE
                   </p>
                     <p class="text-faded" style="font-size: small">
-                      A Portugese bank is rolling out term deposit for its customers. They have in the past connected to their customer base through phone calls. Results for these previous campaigns were recorded and have been provided to the current campaign manager to use the same in making this campaign more effective.
-
-                      Challenges that the manager faces are following:
-
-                      •  Customers have recently started to complain that bank’s marketing staff bothers them with irrelevant product calls and this should        immediately stop
-
-                      •  There is no prior framework for her decide and choose which customer to call and which one to leave alone
-
-                      She has decided to use past data to automate this decision, instead of manually choosing through each and every customer. Previous campaign data which has been made available to her; contains customer characteristics , campaign characteristics, previous campaign information as well as whether customer ended up subscribing to the product as a result of that campaign or not. Using this she plans to develop a statistical model which given this information predicts whether customer in question will subscribe to the product or not. A successful model which is able to do this, will make her campaign efficiently targeted and less bothering to uninterested customers.
+                      Use dataset "base_data.csv" to build a model.Variable names are self explanatory.Your task here is to
+                      build predictive model for predicting sales figures given other information related to counterfeit medicine
+                      selling operations.
                     </p>
                     <h4>TAGS</h4>
                     <p class="text-faded" style="font-size: small">
-                    Logistic Regression, KS Method, Cutoff, Confusion Matrix, Accuracy, Sensitivity, Specificity. </p>
-
+                      Decision Tree, Random Forest Model, Pruning Trees, Terminal Nodes.
                     <h4>PROJECT METHODOLOGY</h4>
                     <p class="text-faded" style="font-size: small">
-                    We will build a Logistic regression model to predict the response variable "y" (whether the client subscribed to a term deposit or No.)
-                    <ul class="text-faded" style="font-size: small">
+                      We will first build decision tree model followed by random forest classification model: The steps followed are given below:
+                      <ul class="text-faded" style="font-size: small">
 
+                        <li>Step 1: Data preparation</li>
+                        <li>Step 2. Building tree model on train data</li>
+                        <li>Step 3. Use the model to predict on test dataset and find error ( RMSE )</li>
+                        <li>Step 4. Prune the tree and find optimised solution.</li>
+                        <li>Step 5.Build the model using random forest method.</li>
+                        <li>Step 6.Compare and see which model performs better(i.e. gives less RMSE).</li>
 
-
-
-                        <li>Step 1: Imputing NA values in the datasets.</li>
-                        <li>Step 2. Data Preparation:Grouping similar category variables and making dummies.</li>
-                        <li>Step 3. Model Building. ( LOGISTIC REGRESSION )</li>
-                        <li>Step 4. Finding Cutoff value and Perfomance measurements of the model.(Sensitivity, Specificity, Accuracy)</li>
-                        <li>Step 5.Predict the final output on test dataset.(whether the client subscribe or no to term deposit)</li>
-                        <li>Step 6:Creating confusion matrix and finding how good our model is. (by predicting on test_25 dataset)</li>
                     </ul>
+                  </p>
                     <h4>DATA DICTIONARY </h4>
-                    <p class="text-faded" style="font-size: small">
-
                     <ul class="text-faded" style="font-size: small">
 
-                        <li>We have given you two datasets , bank-full_train.csv and bank-full_test.csv .</li>
-                        <li> You need to use data bank-full_train to build predictive model for response variable “y”.</li>
-                        <li> bank-full_test data contains all other factors except “y”, you need to predict that using the model that you developed and submit your predicted values in a csv files. </li>
-                        <li>Evaluation Criterion :KS score on test data. larger KS, better Model</li>
+                        <li>Dataset base_data.csv is given to build models.</li>
+                        <li>Evaluation Criterion :RMSE,lower RMSE better the model.</li>
                     </ul>
                     </p>
 
                     <h4>CONCLUSION</h4>
                     <p class="text-faded" style="font-size: small">
-                    Thus the target no. of customers to be focused upon for term deposits by the bank are predicted successfully
-                    using logistic regression model with an accuracy of 84.15% using KS method.
+                    RMSE by decision tree is 49925 and that by random forest is 49057. Hence random forest is little better model.
                   </p>
-                  <p class="text-faded" style="font-size: small">
-                   The KS score examined came out to be: 0.72/1.00[ i.e. Our Model and Predictions were VERY GOOD]
-                  </p>
-                   <a href="http://rpubs.com/more11neha/banking" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
+
+                   <a href="http://rpubs.com/more11neha/decisionRF" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Rpubs Report</a><br>
                    <a href="https://github.com/moretolife/Industry-Based-Projects-Edvancer-Eduventures.git" class="btn btn-primary btn-xl page-scroll" target="_blank">Click to View Github Code and Datasets</a>
                 </div>
 
