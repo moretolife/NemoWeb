@@ -179,7 +179,7 @@ header {/*the background wallpaer stuff*/
     min-height: auto;
     text-align: center;
     color: #fff;/*color of text on homepage hello nemo*/
-    background-image: url(../img/gif3.gif);
+    background-image: url(../img/bg2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
