@@ -147,8 +147,9 @@
      }
  /* DEFAULT NAV PANE IN OTHER PAGES */
      .navbar-default.affix {
-         border-color: #3AAFA9;
-         background-color: #DEF2F1;
+         border-color: #17252A
+         ;
+         background-color: #3AAFA9;
      }
  /*NEHA MORE NAVIGATION BAR COLOR ON OTHER PAGES*/
      .navbar-default.affix .navbar-header .navbar-brand {
@@ -158,17 +159,17 @@
  
      .navbar-default.affix .navbar-header .navbar-brand:hover,
      .navbar-default.affix .navbar-header .navbar-brand:focus {
-         color: #2B7A78;
+         color: #17252A;
      }
  
      .navbar-default.affix .nav > li>a,
      .navbar-default.affix .nav>li>a:focus {
-         color: #222;
+         color: #FFFFFF;
      }
  
      .navbar-default.affix .nav > li>a:hover,
      .navbar-default.affix .nav>li>a:focus:hover {
-         color: #3AAFA9;
+         color: #17252A;
      }
  }
  
