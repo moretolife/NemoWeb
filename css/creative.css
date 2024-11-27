@@ -109,7 +109,7 @@
  .navbar-default .nav>li>a:focus:hover {
      color: #3AAFA9;
  }
- /* HIGHLIGH NAV PAE SECTIONS ON OTHER PAGES */
+ /* HIGHLIGH NAV PAGE SECTIONS ON OTHER PAGES */
  .navbar-default .nav > li.active>a,
  .navbar-default .nav>li.active>a:focus {
      color: #17252A!important;
