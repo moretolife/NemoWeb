@@ -475,11 +475,42 @@
      webkit-tap-highlight-color: #222;
  }
 
- /* Custom Layout Styles */
+ /* Custom Layout Styles pg 2 about me view my style*/
 .link-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 0;
     gap: 10px;
+}
+
+ /* Custom Layout Styles for certificate page*/
+
+.certificate-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.certificate-item img {
+    max-width: 500px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 500px; /* Add spacing between image and text */
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.certificate-item h3 {
+    margin: 0;
+    text-align: center;
+    flex: 1; /* Allow the text column to adjust */
+    font-size: 16px;
+    color: #fff;
+}
+
+.certificate-item .date {
+    text-align: center;
+    white-space: nowrap; /* Prevent date from wrapping */
 }
