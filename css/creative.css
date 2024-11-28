@@ -474,3 +474,12 @@
  body {
      webkit-tap-highlight-color: #222;
  }
+
+ /* Custom Layout Styles */
+.link-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
