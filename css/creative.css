@@ -497,7 +497,7 @@
     max-width: 600px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 500px; /* Add spacing between image and text */
-    border: 2px solid #fff;
+    border: 5px solid #fff;
     border-radius: 10px;
     padding: 5px;
 }
