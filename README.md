@@ -1,4 +1,5 @@
 # moretolife.github.io
 Portfolio for Neha More
 
-..under construction..dated 2024
+..dated 2024
+included Quantitative Finance projects done during career break
